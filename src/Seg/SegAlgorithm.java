@@ -103,7 +103,7 @@ public class SegAlgorithm {
                         wordFre.seg(toString(value));
                         wordmap.put(key, value);
                         //输出分词结果到数据库
-                        //todo 分词结果输出到KeyWordsTable
+                        //分词结果输出到KeyWordsTable
                         String keyyy=toString(key);
                         String valuee=toString(value);
                         String sql = "insert into KeyWordsTable (v_id,wordlist) values(?,?)";
