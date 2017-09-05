@@ -28,7 +28,7 @@ public class SegAlgorithm {
     public static String toString(Object object){
         return toString(object);
     }
-
+//
     /**
      * 正则表达式返回匹配字符串
      * @input 待匹配字符串
