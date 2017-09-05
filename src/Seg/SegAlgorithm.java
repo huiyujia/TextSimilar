@@ -38,6 +38,8 @@ public class SegAlgorithm {
      */
     public static String getSensitive(String globWords){
        //String keywords = regex.toString();
+
+        //
         String sensitive ="";
         String regx="([1-9][0-9]+){1,}";
         Pattern pattern = Pattern.compile(regx);
