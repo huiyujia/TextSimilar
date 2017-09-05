@@ -39,7 +39,6 @@ public class SegAlgorithm {
     public static String getSensitive(String globWords){
        //String keywords = regex.toString();
 
-
         String sensitive ="";
         String regx="([1-9][0-9]+){1,}";
         Pattern pattern = Pattern.compile(regx);
@@ -54,7 +53,7 @@ public class SegAlgorithm {
     public static void main(String[] args) {
         Map moviemap = new HashMap();
         Connection conn = DbConnect.getconn();
-        String sqlGnum = "SELECT v_id,focus,description iqiyi_movies";
+        String sqlGnum = "SELECT v_id,focus,description movies";
         PreparedStatement pstmt =null;
         ResultSet rs=null;
         try {

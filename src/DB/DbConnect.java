@@ -12,9 +12,11 @@ public class DbConnect {
     {
         Connection conn = null;
 
-        String user   = "jiahuiyu";
+        String user   = "root";
         String passwd = "abcdefgjhy123321";
-        String url = "jdbc:mysql:localhost:3306/iqiyi_recource";
+        //String url = "jdbc:mysql:localhost:3306/iqiyi_recource";
+        String url="jdbc:mysql://localhost:3306/iqiyi_recource";
+
 
         //已加载完驱动
         try

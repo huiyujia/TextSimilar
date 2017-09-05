@@ -72,6 +72,12 @@ public class Similarity {
             simtable.setid_1(v_id11);
             simtable.setid_2(v_id22);
             simtable.setsim(similarscore);
+
+            //todo 将TOPN相似影片id存入SimMovieList表格
+
+            HashMap simmovielist=new HashMap();
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -81,3 +87,4 @@ public class Similarity {
         }
     }
 }
+
